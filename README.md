@@ -1,10 +1,12 @@
 # increase-file-upload-size-php
 Increase file upload size in PHP using **cPanel** or **FTP** by adding/modifying  **.htaccess** , **.user.ini** and **php.ini** file.
 
+> Here i'm increasing file upload size to 50 MB , you can increase what size you want, **Note : post_max_size is always greater than upload_max_filesize**
+
 > Either follow bellow steps or just download bellow files and upload in Root folder of your project
-- .htaccess
-- .user.ini
-- .php.ini
+- [.htaccess](https://github.com/niteshnic05/increase-file-upload-size-php/blob/master/.htaccess)
+- [.user.ini](https://github.com/niteshnic05/increase-file-upload-size-php/blob/master/.user.ini)
+- [.php.ini](https://github.com/niteshnic05/increase-file-upload-size-php/blob/master/php.ini)
 
 ## Step 1: Create a .htaccess file in your project root folder
 > (Note : skip above step if *.htaccess* file is alreay there)
