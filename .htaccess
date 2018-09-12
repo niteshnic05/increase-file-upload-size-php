@@ -1,0 +1,17 @@
+# Increase file upload size in php 
+# Author : Nitesh Kumar
+# Profile Url : https://github.com/niteshnic05
+# Git Url : https://github.com/niteshnic05/increase-file-upload-size-php
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors On
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 600M
+   php_value post_max_size 80M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 50M
+   php_flag zlib.output_compression Off
+</IfModule>
